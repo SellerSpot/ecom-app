@@ -1,0 +1,23 @@
+$base-color: #ff9800;
+$background-white-color: #ffffff;
+$forground-light-gray: #adb6ba;
+$highlight-color: #adb6ba;
+
+$font-size-primary: 40px;
+$font-size-primary-sm: 30px;
+$font-size-secondary: 22px;
+$font-size-secondary-sm: 18px;
+$font-size-default: 18px;
+$font-size-default-sm: 16px;
+
+@media only screen and (max-width: 800px) {
+    $font-size-primary: 30px;
+}
+
+.homeWrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
