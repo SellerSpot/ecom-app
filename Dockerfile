@@ -34,6 +34,6 @@ RUN true
 # copy .next folder from build stage
 COPY --from=build /app/.next ./.next
 # expose port
-EXPOSE 3000
+EXPOSE 7004
 # define CMD
 CMD ["npm", "start"]
